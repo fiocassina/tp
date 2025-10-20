@@ -18,7 +18,7 @@ La plataforma permite a los profesores crear clases, donde pueden asignar proyec
 
 
 ### Modelo
-https://drive.google.com/file/d/1RE0z5zJjHnmgLmEb-oEK90_CfJCZfki7/view?usp=sharing
+![Modelo](image.png)
 
 ## Alcance Funcional 
 
