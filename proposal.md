@@ -14,8 +14,7 @@
 
 ## Tema
 ### Descripción
-La plataforma permite a los profesores crear clases, donde pueden asignar proyectos a los alumnos matriculados. También pueden añadir materiales de referencia a cada clase para que los estudiantes accedan al contenido necesario.
-Cada proyecto puede requerir una o más entregas por parte de los alumnos, las cuales son corregidas por el profesor. Este ciclo de entregas y correcciones facilita el seguimiento del progreso académico de los estudiantes.
+La plataforma permite a los profesores crear clases, donde pueden asignar proyectos a los alumnos matriculados. También pueden añadir materiales de referencia a cada clase para que los estudiantes accedan al contenido necesario. Cada proyecto requiere de una entrega por parte de los alumnos, la cual es corregida por el profesor. Este ciclo de entregas y correcciones facilita el seguimiento del progreso académico de los alumnos.
 
 
 ### Modelo
@@ -29,9 +28,8 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Persona<br>2. CRUD Tipo Material<br>3. CRUD Tipo Proyecto|
 |CRUD dependiente|1. CRUD Material {depende de} CRUD Tipo Material<br>2. CRUD Proyecto {depende de} CRUD Tipo Proyecto|
-|Listado<br>+<br>detalle| 1. Listado de proyectos con entregas aprobadas en un rango de fechas determinadas => detalle CRUD Proyecto <br> 2. Listado de proyectos pendientes de entrega que tiene un alumno => detalle CRUD Entrega|
+|Listado<br>+<br>detalle| 1. Listado de alumnos aprobados que tiene un proyecto => detalle CRUD Correccion <br> 2. Listado de proyectos pendientes de entrega que tiene un alumno => detalle CRUD Proyecto|
 |CUU/Epic|1. Gestion de clase<br>2. Gestion de proyecto|
-
 
 Adicionales para Aprobación
 |Req|Detalle|
