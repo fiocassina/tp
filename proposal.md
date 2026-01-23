@@ -18,7 +18,11 @@ La plataforma permite a los profesores crear clases, donde pueden asignar proyec
 
 
 ### Modelo
+
 ![Modelo](image.png)
+
+(https://drive.google.com/file/d/1vAUqD3KeR6Yv22gUSDiDG0IqMr81ckPq/view?usp=sharing)
+
 ## Alcance Funcional 
 
 ### Alcance Mínimo
@@ -29,7 +33,6 @@ Regularidad:
 |CRUD dependiente|1. CRUD Material {depende de} CRUD Tipo Material<br>2. CRUD Proyecto {depende de} CRUD Tipo Proyecto|
 |Listado<br>+<br>detalle| 1. Listado de alumnos aprobados que tiene un proyecto => detalle CRUD Correccion <br> 2. Listado de proyectos pendientes de entrega que tiene un alumno => detalle CRUD Proyecto|
 |CUU/Epic|1. Gestion de clase<br>2. Gestion de proyecto|
-
 
 Adicionales para Aprobación
 |Req|Detalle|
