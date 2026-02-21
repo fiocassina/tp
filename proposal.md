@@ -29,7 +29,7 @@ La plataforma permite a los profesores crear clases, donde pueden asignar proyec
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Persona<br>2. CRUD Tipo Material<br>3. CRUD Tipo Proyecto|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Correccion<br>3. CRUD Tipo Proyecto|
 |CRUD dependiente|1. CRUD Material {depende de} CRUD Tipo Material<br>2. CRUD Proyecto {depende de} CRUD Tipo Proyecto|
 |Listado<br>+<br>detalle| 1. Listado de alumnos aprobados que tiene un proyecto => detalle CRUD Correccion <br> 2. Listado de proyectos pendientes de entrega que tiene un alumno => detalle CRUD Proyecto|
 |CUU/Epic|1. Gestion de clase<br>2. Gestion de proyecto|
@@ -37,8 +37,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Persona<br>2. CRUD Tipo Material<br>3. CRUD Tipo Proyecto<br>4. CRUD Entrega<br>5. CRUD Corrección<br>6. CRUD Clase<br>7. CRUD Estado Alumno|
-|CUU/Epic|1. Gestion de clase<br>2. Gestion de proyecto <br>3. |
+|CRUD |1. CRUD Usuario<br>2. CRUD Proyecto<br>3. CRUD Tipo Proyecto<br>4. CRUD Entrega<br>5. CRUD Corrección<br>6. CRUD Clase<br>7. CRUD Material|
+|CUU/Epic|1. Gestion de clase<br>2. Gestion de proyecto <br>3. Gestion de Entregas y Correcciones|
 
 
 ### Alcance Adicional Voluntario
